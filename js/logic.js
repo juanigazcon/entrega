@@ -158,7 +158,7 @@ document.addEventListener("DOMContentLoaded", ()=> {
         let checkout = localStorage.getItem("compra");
         CARRITO = JSON.parse(localStorage.getItem("CARRITO"));
         actualizarCarrito();
-        if(CARRITO!=null){
+       if(CARRITO!=null){
             agregarBotones();
         }
         if(CARRITO==null){
