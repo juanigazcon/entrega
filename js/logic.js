@@ -159,7 +159,7 @@ let compraConfirmada = false;
 document.addEventListener("DOMContentLoaded", ()=> {
     
        let checkout = localStorage.getItem("compra");
-        CARRITO = JSON.parse(localStorage.getItem("CARRITO"));
+        CARRITO = JSON.parse(localStorage.getItem("CARRITO")) || [];
         actualizarCarrito();
        CARRITO!=null && agregarBotones();
        CARRITO==null && vaciarCarrito();
