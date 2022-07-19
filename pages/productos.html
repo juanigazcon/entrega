@@ -12,8 +12,9 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../scss/estilos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <title>PRODUCTOS | TOTUS PASTELERIA </title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>    <title>PRODUCTOS | TOTUS PASTELERIA </title>
     <meta name="keywords" content="Totus, pasteleria, bocados, alfajores, tortas, frutales, golosas, pedidos, eventos, encargo, pilar, dulce de leche, chocolate">
     <meta name="description" content="Totus Pastelería- Tortas, bocados, alfajores, macarons. Venta por encargo, mesas dulces, venta para comercios, eventos. Hacé tu pedido!">
   </head>
@@ -95,7 +96,7 @@
             <a href="cheesecake.html" id="color">Cheesecake tipo NY</a>
           </h3>
           <p>$4.000</p>
-          <button type="button" class="btn btn-light boton botones" data-id="1">Agregar al carrito</button>
+          <button type="button" class="btn btn-light boton botones" data-id="1"><a href="#areaCarro" style="color:dimgray; text-decoration: none;">Agregar al carrito</a></button>
         </div>
         <div class="container col-md-4 d-flex flex-column align-items-center px-0 py-3">
           <a href="rogel.html">
@@ -105,7 +106,7 @@
             <a href="rogel.html" id="color">Torta Rogel</a>
           </h3>
           <p>$3.500</p>
-          <button type="button" class="btn btn-light boton botones" data-id="2">Agregar al carrito</button>
+          <button type="button" class="btn btn-light boton botones" data-id="2"><a href="#areaCarro" style="color:dimgray; text-decoration: none;">Agregar al carrito</a></button>
         </div>
         <div class="container col-md-4 d-flex flex-column align-items-center px-0 py-3">
           <a href="marquisse.html">
@@ -115,7 +116,7 @@
             <a href="marquisse.html" id="color">Torta Marquisse</a>
           </h3>
           <p>$3.800</p>
-          <button type="button" class="btn btn-light boton botones" data-id="3">Agregar al carrito</button>
+          <button type="button" class="btn btn-light boton botones" data-id="3"><a href="#areaCarro" style="color:dimgray; text-decoration: none;">Agregar al carrito</a></button>
         </div>
       </div>
       <div class="row py-2 slide">
@@ -127,7 +128,7 @@
             <a href="cheesecake.html" id="color">Torta de Nuez</a>
           </h3>
           <p>$3.800</p>
-          <button type="button" class="btn btn-light boton botones" data-id="4">Agregar al carrito</button>
+          <button type="button" class="btn btn-light boton botones" data-id="4"><a href="#areaCarro" style="color:dimgray; text-decoration: none;">Agregar al carrito</a></button>
         </div>
         <div class="container col-md-4 d-flex flex-column align-items-center px-0 pt-3">
           <a href="pavlova-clasica.html">
@@ -137,7 +138,7 @@
             <a href="pavlova-clasica.html" id="color">Pavlova Clásica</a>
           </h3>
           <p>$3.500</p>
-          <button type="button" class="btn btn-light boton botones" data-id="5">Agregar al carrito</button>
+          <button type="button" class="btn btn-light boton botones" data-id="5"><a href="#areaCarro" style="color:dimgray; text-decoration: none;">Agregar al carrito</a></button>
         </div>
         <div class="container col-md-4 d-flex flex-column align-items-center px-0 py-3">
           <a href="pavlova-silvestre.html">
@@ -147,7 +148,7 @@
             <a href="pavlova-silvestre.html" id="color">Pavlova Silvestre</a>
           </h3>
           <p>$4.200</p>
-          <button type="button" class="btn btn-light boton botones" data-id="6">Agregar al carrito</button>
+          <button type="button" class="btn btn-light boton botones" data-id="6"><a href="#areaCarro" style="color:dimgray; text-decoration: none;">Agregar al carrito</a></button>
         </div>
       </div>
       <div class="row py-2 slide">
@@ -159,7 +160,7 @@
             <a href="pavlova-fs.html" id="color">Pavlova de Nuez/Almendras</a>
           </h3>
           <p>$4.000</p>
-          <button type="button" class="btn btn-light boton botones" data-id="7">Agregar al carrito</button>
+          <button type="button" class="btn btn-light boton botones" data-id="7"><a href="#areaCarro" style="color:dimgray; text-decoration: none;">Agregar al carrito</a></button>
         </div>
         <div class="container col-md-4 d-flex flex-column align-items-center px-0 py-3">
           <a href="key-lemon-pie.html">
@@ -169,7 +170,7 @@
             <a href="key-lemon-pie.html" id="color">Key Lemon Pie</a>
           </h3>
           <p>$3.800</p>
-          <button type="button" class="btn btn-light boton botones" data-id="8">Agregar al carrito</button>
+          <button type="button" class="btn btn-light boton botones" data-id="8"><a href="#areaCarro" style="color:dimgray; text-decoration: none;">Agregar al carrito</a></button>
         </div>
         <div class="container col-md-4 d-flex flex-column align-items-center px-0 py-3">
           <a href="tarta-de-frutillas.html">
@@ -179,7 +180,7 @@
             <a href="tarta-de-frutillas.html" id="color">Tarta de Frutillas</a>
           </h3>
           <p>$3.500</p>
-          <button type="button" class="btn btn-light boton botones" data-id="9">Agregar al carrito</button>
+          <button type="button" class="btn btn-light boton botones" data-id="9"><a href="#areaCarro" style="color:dimgray; text-decoration: none;">Agregar al carrito</a></button>
         </div>
       </div>
       <div class="row py-2 slide">
@@ -191,7 +192,7 @@
             <a href="pavlova-fs.html" id="color">Sableé de Nuez/Almendras</a>
           </h3>
           <p>$4.000</p>
-          <button type="button" class="btn btn-light boton botones" data-id="13">Agregar al carrito</button>
+          <button type="button" class="btn btn-light boton botones" data-id="13"><a href="#areaCarro" style="color:dimgray; text-decoration: none;">Agregar al carrito</a></button>
         </div>
         <div class="container col-md-4 d-flex flex-column align-items-center px-0 py-3">
           <a href="lemon-pie.html">
@@ -201,7 +202,7 @@
             <a href="key-lemon-pie.html" id="color">Lemon Pie</a>
           </h3>
           <p>$3.500</p>
-          <button type="button" class="btn btn-light boton botones" data-id="12">Agregar al carrito</button>
+          <button type="button" class="btn btn-light boton botones" data-id="12"><a href="#areaCarro" style="color:dimgray; text-decoration: none;">Agregar al carrito</a></button>
         </div>
         <div class="container col-md-4 d-flex flex-column align-items-center px-0 py-3">
           <a href="sablee-fr.html">
@@ -211,7 +212,7 @@
             <a href="tarta-de-frutillas.html" id="color">Sableé con Frutos Rojos</a>
           </h3>
           <p>$4.000</p>
-          <button type="button" class="btn btn-light boton botones" data-id="11">Agregar al carrito</button>
+          <button type="button" class="btn btn-light boton botones" data-id="11"><a href="#areaCarro" style="color:dimgray; text-decoration: none;">Agregar al carrito</a></button>
         </div>
       </div>
       <div class="row py-2 slide">
@@ -223,7 +224,7 @@
             <a href="key-lime-pie.html" id="color">Key Lime Pie</a>
           </h3>
           <p>$3.900</p>
-          <button type="button" class="btn btn-light boton botones" data-id="10">Agregar al carrito</button>
+          <button type="button" class="btn btn-light boton botones" data-id="10"><a href="#areaCarro" style="color:dimgray; text-decoration: none;">Agregar al carrito</a></button>
         </div>
         <div class="container col-md-4 d-flex flex-column align-items-center px-0 py-3">
           <a href="chocotorta.html">
@@ -233,7 +234,7 @@
             <a href="chocotorta.html" id="color">Chocotorta</a>
           </h3>
           <p>$4.000</p>
-          <button type="button" class="btn btn-light boton botones" data-id="14">Agregar al carrito</button>
+          <button type="button" class="btn btn-light boton botones" data-id="14"><a href="#areaCarro" style="color:dimgray; text-decoration: none;">Agregar al carrito</a></button>
         </div>
         <div class="container col-md-4 d-flex flex-column align-items-center px-0 py-3">
           <a href="torta-oreo.html">
@@ -243,7 +244,7 @@
             <a href="torta-oreo.html" id="color">Torta Oreo</a>
           </h3>
           <p>$2.800</p>
-          <button type="button" class="btn btn-light boton botones" data-id="15">Agregar al carrito</button>
+          <button type="button" class="btn btn-light boton botones" data-id="15"><a href="#areaCarro" style="color:dimgray; text-decoration: none;">Agregar al carrito</a></button>
         </div>
       </div>
       <div class="row py-2 slide">
@@ -255,7 +256,7 @@
             <a href="havanet-blanco.html" id="color">Havanet Blanco</a>
           </h3>
           <p>$3.200</p>
-          <button type="button" class="btn btn-light boton botones" data-id="17">Agregar al carrito</button>
+          <button type="button" class="btn btn-light boton botones" data-id="17"><a href="#areaCarro" style="color:dimgray; text-decoration: none;">Agregar al carrito</a></button>
         </div>
         <div class="container col-md-4 d-flex flex-column align-items-center px-0 py-3">
           <a href="havanet-negro.html">
@@ -265,7 +266,7 @@
             <a href="havanet-negro.html" id="color">Havanet Negro</a>
           </h3>
           <p>$3.200</p>
-          <button type="button" class="btn btn-light boton botones" data-id="16">Agregar al carrito</button>
+          <button type="button" class="btn btn-light boton botones" data-id="16"><a href="#areaCarro" style="color:dimgray; text-decoration: none;">Agregar al carrito</a></button>
         </div>
         <div class="container col-md-4 d-flex flex-column align-items-center px-0 py-3">
           <a href="layer-cake.html">
@@ -275,7 +276,7 @@
             <a href="layer-cake.html" id="color">Layer Cake</a>
           </h3>
           <p>$5.500</p>
-          <button type="button" class="btn btn-light boton botones" data-id="18">Agregar al carrito</button>
+          <button type="button" class="btn btn-light boton botones" data-id="18"><a href="#areaCarro" style="color:dimgray; text-decoration: none;">Agregar al carrito</a></button>
         </div>
       </div>
       <div class="row py-2 slide">
@@ -287,7 +288,7 @@
             <a href="cookie-cake.html" id="color">Cookie Cake</a>
           </h3>
           <p>$4.500</p>
-          <button type="button" class="btn btn-light boton botones" data-id="19">Agregar al carrito</button>
+          <button type="button" class="btn btn-light boton botones" data-id="19"><a href="#areaCarro" style="color:dimgray; text-decoration: none;">Agregar al carrito</a></button>
         </div>
         <div class="container col-md-4 d-flex flex-column align-items-center px-0 py-3">
           <a href="macarons.html">
@@ -297,7 +298,7 @@
             <a href="macarons.html" id="color">Macarons</a>
           </h3>
           <p>$1.000</p>
-          <button type="button" class="btn btn-light boton botones" data-id="20">Agregar al carrito</button>
+          <button type="button" class="btn btn-light boton botones" data-id="20"><a href="#areaCarro" style="color:dimgray; text-decoration: none;">Agregar al carrito</a></button>
         </div>
         <div class="container col-md-4 d-flex flex-column align-items-center px-0 py-3">
           <a href="brownies.html">
@@ -307,7 +308,7 @@
             <a href="brownies.html" id="color">Brownies</a>
           </h3>
           <p>$1.200</p>
-          <button type="button" class="btn btn-light boton botones" data-id="21">Agregar al carrito</button>
+          <button type="button" class="btn btn-light boton botones" data-id="21"><a href="#areaCarro" style="color:dimgray; text-decoration: none;">Agregar al carrito</a></button>
         </div>
       </div>
       <div class="row py-2 slide">
@@ -319,7 +320,7 @@
             <a href="alfajorcitos-clasicos.html" id="color">Alfajorcitos Clásicos</a>
           </h3>
           <p>$1.200</p>
-          <button type="button" class="btn btn-light boton botones" data-id="22">Agregar al carrito</button>
+          <button type="button" class="btn btn-light boton botones" data-id="22"><a href="#areaCarro" style="color:dimgray; text-decoration: none;">Agregar al carrito</a></button>
         </div>
       <div class="container col-md-4 d-flex flex-column align-items-center px-0 py-3">
         <a href="alfajorcitos-fs.html">
@@ -329,7 +330,7 @@
           <a href="alfajorcitos-fs.html" id="size" id="size">Alfajorcitos de Nuez/Almendras</a>
         </h3>
         <p>$1.400</p>
-          <button type="button" class="btn btn-light boton botones" data-id="23">Agregar al carrito</button>
+          <button type="button" class="btn btn-light boton botones" data-id="23"><a href="#areaCarro" style="color:dimgray; text-decoration: none;">Agregar al carrito</a></button>
       </div>
       <div class="container col-md-4 d-flex flex-column align-items-center px-0 py-3">
         <a href="alfajor-blockazo.html">
@@ -339,7 +340,7 @@
           <a href="alfajor-blockazo.html" id="color">Alfajores Blockazo</a>
         </h3>
         <p>$1.000</p>
-          <button type="button" class="btn btn-light boton botones" data-id="24">Agregar al carrito</button>
+          <button type="button" class="btn btn-light boton botones" data-id="24"><a href="#areaCarro" style="color:dimgray; text-decoration: none;">Agregar al carrito</a></button>
       </div>
       </div>
       <div class="row py-2 slide">
@@ -351,7 +352,7 @@
             <a href="coquitos.html" id="color">Coquitos</a>
           </h3>
           <p>$1.000</p>
-          <button type="button" class="btn btn-light boton botones" data-id="25">Agregar al carrito</button>
+          <button type="button" class="btn btn-light boton botones" data-id="25"><a href="#areaCarro" style="color:dimgray; text-decoration: none;">Agregar al carrito</a></button>
         </div>
         <div class="container col-md-4 d-flex flex-column align-items-center px-0 py-3">
           <a href="alfajorcitos-maicena.html">
@@ -361,11 +362,12 @@
             <a href="alfajorcitos-maicena.html" id="color">Alfajorcitos de Maicena</a>
           </h3>
           <p>$1.200</p>
-          <button type="button" class="btn btn-light boton botones" data-id="26">Agregar al carrito</button>
+          <button type="button" class="btn btn-light boton botones" data-id="26"><a href="#areaCarro" style="color:dimgray; text-decoration: none;">Agregar al carrito</a></button>
         </div>
         <div class="container col-md-4 d-flex flex-column align-items-center px-0 py-3"></div>
       </div>
-      <div class="modal-contenedor pb-5">
+      <div id="areaCarro"></div>
+        <div class="modal-contenedor pb-5">
         <div class="modal-carrito">
           <h3>Carrito</h3>
           <div id="carrito-contenedor" class="tabla"></div>
@@ -389,6 +391,7 @@
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="./../js/logic.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
   </body>
   <footer class="container-fluid py-4 px-0 mx-0">
     <div class="row d-flex justify-content-between px-0 mx-0">
