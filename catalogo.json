@@ -1,0 +1,138 @@
+[
+    {
+    "id": 1,
+    "nombre": "Cheesecake tipo NY",
+    "precio": 4000,
+    "cantidad": 0
+}, {
+    "id": 2,
+    "nombre": "Rogel",
+    "precio": 3500,
+    "cantidad": 0
+},
+{
+    "id": 3,
+    "nombre": "Marquisse",
+    "precio": 3800,
+    "cantidad": 0
+},
+{
+    "id": 4,
+    "nombre": "Torta de Nuez",
+    "precio": 3800,
+    "cantidad": 0
+}, {
+    "id": 5,
+    "nombre": "Pavlova Clásica",
+    "precio": 3500,
+    "cantidad": 0
+}, {
+    "id": 6,
+    "nombre": "Pavlova Silvestre",
+    "precio": 4200,
+    "cantidad": 0
+}, {
+    "id": 7,
+    "nombre": "Pavlova de Nuez/Almendras",
+    "precio": 4000,
+    "cantidad": 0
+}, {
+    "id": 8,
+    "nombre": "Key Lemon Pie",
+    "precio": 3800,
+    "cantidad": 0
+}, {
+    "id": 9,
+    "nombre": "Tarta de Frutillas",
+    "precio": 3500,
+    "cantidad": 0
+}, {
+    "id": 10,
+    "nombre": "Key Lime Pie",
+    "precio": 3900,
+    "cantidad": 0
+}, {
+    "id": 11,
+    "nombre": "Sablée con Frutos Rojos",
+    "precio": 4000,
+    "cantidad": 0
+},
+{
+    "id": 12,
+    "nombre": "Lemon Pie",
+    "precio": 3500,
+    "cantidad": 0
+}, {
+    "id": 13,
+    "nombre": "Sablée de Nuez/Almendras",
+    "precio": 4000,
+    "cantidad": 0
+}, {
+    "id": 14,
+    "nombre": "Chocotorta",
+    "precio": 4000,
+    "cantidad": 0
+}, {
+    "id": 15,
+    "nombre": "Torta Oreo",
+    "precio": 2800,
+    "cantidad": 0
+}, {
+    "id": 16,
+    "nombre": "Havanet Negro",
+    "precio": 3200,
+    "cantidad": 0
+},
+{
+    "id": 17,
+    "nombre": "Havanet Blanco",
+    "precio": 3200,
+    "cantidad": 0
+}, {
+    "id": 18,
+    "nombre": "Layer Cake",
+    "precio": 5500,
+    "cantidad": 0
+},
+{
+    "id": 19,
+    "nombre": "Cookie Cake",
+    "precio": 4500,
+    "cantidad": 0
+}, {
+    "id": 20,
+    "nombre": "Macarons",
+    "precio": 1100,
+    "cantidad": 0
+}, {
+    "id": 21,
+    "nombre": "Brownies",
+    "precio": 1200,
+    "cantidad": 0
+}, {
+    "id": 22,
+    "nombre": "Alfajorcitos Clásicos",
+    "precio": 1200,
+    "cantidad": 0
+}, {
+    "id": 23,
+    "nombre": "Alfajorcitos de Nuez/Almendras",
+    "precio": 1400,
+    "cantidad": 0
+}, {
+    "id": 24,
+    "nombre": "Alfajores Blockazo",
+    "precio": 1000,
+    "cantidad": 0
+}, {
+    "id": 25,
+    "nombre": "Coquitos",
+    "precio": 1000,
+    "cantidad": 0
+}, {
+    "id": 26,
+    "nombre": "Alfajores de Maicena",
+    "precio": 1200,
+    "cantidad": 0
+}
+]

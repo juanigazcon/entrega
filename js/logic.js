@@ -1,6 +1,6 @@
 
 //ARRAY DE PRODUCTOS
-const CATALOGO = [{
+/* const CATALOGO = [{
     id: 1,
     nombre: "Cheesecake tipo NY",
     precio: 4000,
@@ -136,7 +136,21 @@ const CATALOGO = [{
     precio: 1200,
     cantidad: 0
 }
-]
+]  */
+
+let CATALOGO = [];
+const API = "../catalogo.json";
+
+ const getCatalog = async () => {
+    const respuesta = await fetch(API);
+    CATALOGO = await respuesta.json();
+
+    console.log(CATALOGO);
+
+}
+getCatalog();
+
+ 
 
 //CARRITO
 let CARRITO = [];
@@ -157,7 +171,7 @@ let botonesDisponibles = false;
 let compraConfirmada = false;
 
 document.addEventListener("DOMContentLoaded", ()=> {
-    
+       
        let checkout = localStorage.getItem("compra");
         CARRITO = JSON.parse(localStorage.getItem("CARRITO")) || [];
         actualizarCarrito();
@@ -476,7 +490,6 @@ localStorage.setItem("CARRITO", JSON.stringify(CARRITO));
 
 //CALCULAR PRECIO EFECTIVO
 function pagoEfectivo() {
-
     swal.fire(
         {
         title: 'El precio total abonando en efectivo es $' + precioCarrito * 0.90 + '\n\n Por favor enviar mail con detalle de compra a totuspasteleria@gmail.com',
@@ -486,6 +499,14 @@ function pagoEfectivo() {
         background: "#E1CEB2",
         color: "#b49a7f",
     })
+    display.innerHTML = 0;
+    CARRITO.splice(0, CARRITO.length);
+    console.log(CARRITO);
+    actualizarCarrito();
+    calcularPrecio();
+    actualizarCarrito();
+    newDiv.innerHTML = "";
+    localStorage.setItem("CARRITO", JSON.stringify(CARRITO));
 //const ultimoPrecio = document.getElementById("precioFinal");
 //ultimoPrecio.innerHTML = "El precio total abondando en efectivo es $" + precioCarrito * 0.90;
 }
@@ -501,13 +522,20 @@ function pagoTransferencia() {
         background: "#E1CEB2",
         color: "#b49a7f",
     })
+    display.innerHTML = 0;
+    CARRITO.splice(0, CARRITO.length);
+    console.log(CARRITO);
+    actualizarCarrito();
+    calcularPrecio();
+    actualizarCarrito();
+    newDiv.innerHTML = "";
+    localStorage.setItem("CARRITO", JSON.stringify(CARRITO));
 //const ultimoPrecio = document.getElementById("precioFinal");
 //ultimoPrecio.innerHTML = "El precio total abondando con transferencia es $" + precioCarrito * 0.95;
 }
 
 //CALCULAR PRECIO MERCADOPAGO
 function pagoMP() {
-   
     Toastify({
         text: 'El precio total abonando con MercadoPago es $' + precioCarrito + '. \n Hacé click para avanzar al pago.',
         destination: 'https://link.mercadopago.com.ar/totuspasteleria',
@@ -522,6 +550,14 @@ function pagoMP() {
         stopOnFocus: true,
         //close: true,
    }).showToast();
+   display.innerHTML = 0;
+    CARRITO.splice(0, CARRITO.length);
+    console.log(CARRITO);
+    actualizarCarrito();
+    calcularPrecio();
+    actualizarCarrito();
+    newDiv.innerHTML = "";
+    localStorage.setItem("CARRITO", JSON.stringify(CARRITO));
 /* const ultimoPrecio = document.getElementById("precioFinal");
 ultimoPrecio.innerHTML = "El precio total abondando con MercadoPago es $" + precioCarrito; */
 }
